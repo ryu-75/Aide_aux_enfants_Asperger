@@ -1,0 +1,33 @@
+body {
+    font-family: Candara, serif;
+    width: 100vw;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav>ul>li>a {
+    list-style: none;
+}
+
+section {
+    background-image:url(../image/UN0243366.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+button {
+    cursor: pointer;
+}
+button:hover,
+button:focus {
+    transition: ease;
+    transform: scale(1.5, 1.5);
+}
+
+.article-1 {
+    background: rgba(255, 255, 255, 0.692);
+}
