@@ -1,0 +1,24 @@
+body {
+    font-family: Candara, serif;
+    display: block;
+}
+
+h1, 
+h2, 
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    background-image: url(../image/using-time-out-to-guide-your-childs-behaviournarrow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.article-1, 
+.article-2, 
+.article-3 {
+    background: rgba(255, 255, 255, 0.699);
+}
+
