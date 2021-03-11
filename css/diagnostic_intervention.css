@@ -14,6 +14,14 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+.img-header {
+    background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .img {
     background-image: url(../image/using-time-out-to-guide-your-childs-behaviournarrow.jpg);
     background-repeat: no-repeat;
@@ -27,3 +35,7 @@ h4 {
     background: rgba(255, 255, 255, 0.699);
 }
 
+i:hover,
+i:focus {
+    transform: scale(1.5, 1.5);
+}

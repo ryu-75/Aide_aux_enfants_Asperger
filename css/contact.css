@@ -1,0 +1,18 @@
+body {
+    font-family: Candara, serif;
+    display: block;
+    width: 100%;
+}
+
+.img-header {
+    background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Effet bouton*/
+i:hover,
+i:focus {
+    transform: scale(1.5, 1.5);
+}

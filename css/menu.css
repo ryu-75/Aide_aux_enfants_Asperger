@@ -1,6 +1,7 @@
 body {
     font-family: Candara, serif;
     display: block;
+    width: 100%;
 }
 
 h1 {
@@ -11,7 +12,15 @@ nav>ul>li>a {
     list-style: none;
 }
 
-section {
+
+.img-header {
+    background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img {
     background-image:url(../image/UN0243366.jpg);
     background-repeat: no-repeat;
     background-size: cover;
