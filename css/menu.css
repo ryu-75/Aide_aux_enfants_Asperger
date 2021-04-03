@@ -4,7 +4,13 @@ body {
     width: 100%;
 }
 
-h1 {
+header {
+    height: 100%;
+}
+
+h1, 
+h2, 
+h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -46,4 +52,3 @@ i:focus {
     background: rgba(255, 255, 255, 0.692);
     height: auto;
 }
-

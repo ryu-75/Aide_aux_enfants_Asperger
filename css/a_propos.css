@@ -1,8 +1,31 @@
 body {
     font-family: Candara, serif;
     display: block;
+    width: 100%;
+}
+
+header {
+    height: 100%;
+}
+
+h1, 
+h2, 
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-header {
+    background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+i:hover,
+i:focus {
+    transform: scale(1.5, 1.5);
 }
