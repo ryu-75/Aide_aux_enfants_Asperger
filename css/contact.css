@@ -4,6 +4,12 @@ body {
     width: 100%;
 }
 
+h1, 
+h2, 
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .img-header {
     background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
     background-repeat: no-repeat;
