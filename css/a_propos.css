@@ -16,7 +16,19 @@ h1, h2, h3, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+button:hover,
+button:focus {
+    transition: 0.3s ease-in 0.1s;
+    transform: scale(1.1, 1.1);
+}
+ /*Effets des boutons*/
+ 
 i:hover,
 i:focus {
-    transform: scale(1.5, 1.5);
+    transition: 0.05s ease-in-out;
+    transform: scale(1.3, 1.3);
+}
+
+.social-logo {
+cursor: pointer;
 }
