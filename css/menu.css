@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Candara, serif;
     display: block;
@@ -30,6 +34,13 @@ nav>ul>li>a {
     height: 100%;
 }
 
+.article-1 {
+    background: rgba(255, 255, 255, 0.692);
+    height: auto;
+}
+
+/*Effet des boutons*/
+
 button {
     cursor: pointer;
 }
@@ -50,7 +61,9 @@ button:focus {
 cursor: pointer;
 }
 
-.article-1 {
-    background: rgba(255, 255, 255, 0.692);
-    height: auto;
+i:hover,
+i:focus {
+    transition: 0.1s ease-in;
+    transform: scale(1.1, 1.1);
 }
+
