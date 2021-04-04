@@ -33,12 +33,6 @@ h4 {
 
 /*Effets des boutons*/
 
-button:hover,
-button:focus {
-    transition: 0.3s ease-in 0.1s;
-    transform: scale(1.1, 1.1);
-}
-
 i:hover,
 i:focus {
     transition: 0.05s ease-in-out;
