@@ -1,5 +1,5 @@
+/*font family*/
 /*Color*/
-/*Font family*/
 html {
   scroll-behavior: smooth;
 }
@@ -16,10 +16,6 @@ h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-nav > ul > li > a {
-  list-style: none;
-}
-
 .img-header {
   background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
   background-repeat: no-repeat;
@@ -28,31 +24,20 @@ nav > ul > li > a {
 }
 
 .img {
-  background-image: url(../image/UN0243366.jpg);
+  background-image: url(../image/using-time-out-to-guide-your-childs-behaviournarrow.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100%;
 }
 
-.article-1 {
-  background: #ffffffb0;
-  height: auto;
+.article-1,
+.article-2,
+.article-3 {
+  background: #ffffffb2;
 }
 
-/*Effet des boutons*/
-button {
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  -webkit-transition: 0.3s ease-in 0.1s;
-  transition: 0.3s ease-in 0.1s;
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-}
-
+/*Effets des boutons*/
 .social-logo:hover,
 .social-logo:focus {
   -webkit-transition: 0.1s ease-in;
@@ -72,4 +57,4 @@ i:focus {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
-/*# sourceMappingURL=menu.css.map */
+/*# sourceMappingURL=diagnostic_intervention.css.map */

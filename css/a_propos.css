@@ -1,5 +1,6 @@
-/*Color*/
+/*Variable couleur*/
 /*Font family*/
+/*Permet d'adourcir le scroll une fois qu'on clique sur le bouton de retour en haut de page.*/
 html {
   scroll-behavior: smooth;
 }
@@ -10,16 +11,6 @@ body {
   width: 100%;
 }
 
-h1,
-h2,
-h4 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-nav > ul > li > a {
-  list-style: none;
-}
-
 .img-header {
   background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
   background-repeat: no-repeat;
@@ -27,32 +18,20 @@ nav > ul > li > a {
   background-position: center;
 }
 
-.img {
-  background-image: url(../image/UN0243366.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
+h1, h2, h3, h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.article-1 {
-  background: #ffffffb0;
-  height: auto;
+.bg-color-article {
+  background: #247aca;
 }
 
-/*Effet des boutons*/
-button {
-  cursor: pointer;
+.box-shadow {
+  -webkit-box-shadow: 3px -6px 8px #d3d3d3;
+          box-shadow: 3px -6px 8px #d3d3d3;
 }
 
-button:hover,
-button:focus {
-  -webkit-transition: 0.3s ease-in 0.1s;
-  transition: 0.3s ease-in 0.1s;
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-}
-
+/*Effets des boutons*/
 .social-logo:hover,
 .social-logo:focus {
   -webkit-transition: 0.1s ease-in;
@@ -72,4 +51,4 @@ i:focus {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
 }
-/*# sourceMappingURL=menu.css.map */
+/*# sourceMappingURL=a_propos.css.map */

@@ -1,0 +1,58 @@
+/*Variable couleur*/
+
+$bg-blue: #247aca;
+$shadow-color: #d3d3d3;
+
+/*Font family*/
+
+$main-font: Candara, serif;
+$h-font: Georgia, 'Times New Roman', Times, serif;
+
+/*Permet d'adourcir le scroll une fois qu'on clique sur le bouton de retour en haut de page.*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $main-font;
+    display: block;
+    width: 100%;
+}
+
+
+.img-header {
+    background-image: url(../image/155-1552214_cloudy-sky-wallpaper-blue-sky-clouds-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: $h-font;
+}
+
+.bg-color-article {
+    background: $bg-blue;
+}
+
+.box-shadow {
+    box-shadow: 3px -6px 8px $shadow-color;
+}
+
+/*Effets des boutons*/
+
+.social-logo:hover,
+.social-logo:focus {
+    transition: 0.1s ease-in ;
+    transform: scale(1.3, 1.3);
+}
+
+.social-logo {
+cursor: pointer;
+}
+
+i:hover,
+i:focus {
+    transition: 0.1s ease-in;
+    transform: scale(1.1, 1.1);
+}
