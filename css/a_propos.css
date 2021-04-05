@@ -20,6 +20,10 @@ h1, h2, h3, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.bg-color-article {
+    background: rgb(36, 122, 202);
+}
+
 .box-shadow {
     box-shadow: 3px -6px 8px lightgray;
 }
